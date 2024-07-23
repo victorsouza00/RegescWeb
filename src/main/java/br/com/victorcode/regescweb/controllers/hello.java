@@ -19,7 +19,7 @@ public class hello {
     @GetMapping("/hello-servlet")
     public String hello(HttpServletRequest request){
         request.setAttribute("nome","Victor");
-        return "Hello.html";
+        return "Hello.html";//A nossa página
     }
     @GetMapping("/hello-model")
     public String hello(Model model){

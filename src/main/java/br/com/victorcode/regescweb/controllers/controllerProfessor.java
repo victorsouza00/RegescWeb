@@ -26,7 +26,7 @@ public class controllerProfessor {
         List<Professor> professoresList = Arrays.asList(batman,coringa,mulherMaravilha);
 
         ModelAndView mv = new ModelAndView("professores/index.html");//O endereço do que ele vai retornar
-        mv.addObject("professoresList",professoresList);//Isso é como se fosse uma variavel , usamos esse attributeName no Html
+        mv.addObject("professoresList",professoresList);//Isso é a variavel e o nome dela la no HTML que vai representar  , usamos esse attributeName no Html
         return mv;
     }
 
